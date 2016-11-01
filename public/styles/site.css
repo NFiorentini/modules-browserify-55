@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1E1E1E;
+  color: #C8C8C8;
+  font-family: Verdana, arial;
+  font-size: 12px;
+}
+#mount {
+  width: 400px;
+  margin: auto;
+}
+.users-controller {
+  margin-top: 10px;
+  border: 2px solid #383838;
+}
+.users-controller > h1 {
+  margin: 0;
+  padding: 10px;
+  background: #383838;
+  font-size: 14px;
+  font-weight: normal;
+}
+.users-controller > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.users-controller > ul > li {
+  padding: 10px;
+  border-bottom: 2px solid #383838;
+  cursor: pointer;
+  transition: all 250ms;
+}
+.users-controller > ul > li:hover {
+  background: #991c00;
+}
+.users-controller > .add-user {
+  display: block;
+  background: #005b99;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 250ms;
+}
+.users-controller > .add-user:hover {
+  background: #007ACC;
+}
